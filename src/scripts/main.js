@@ -38,6 +38,8 @@ const tl = gsap.timeline({
   defaults: { ease: "expo.inOut" },
 });
 
+gsap.set(".title", { visibility: "visible" });
+
 tl.from(".images > .block", {
   duration: 2,
   y: "100%",

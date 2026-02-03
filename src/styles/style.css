@@ -134,6 +134,7 @@ body {
   overflow: hidden;
   position: relative;
   text-align: center;
+  visibility: hidden;
   width: 100%;
   z-index: 20;
 }
